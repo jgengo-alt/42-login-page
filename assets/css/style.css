@@ -1,0 +1,104 @@
+@font-face{
+  font-family:"Futura PT";
+  src:url(/assets/ParaType-FuturaPTBook.otf) format("opentype");
+  font-weight:400;
+  font-style:normal
+}
+@font-face{
+  font-family:"Futura PT";
+  src:url(/assets/ParaType-FuturaPTBookOblique.ttf) format("truetype");
+  font-weight:400;
+  font-style:italic
+}
+@font-face{
+  font-family:"Futura PT";
+  src:url(/assets/ParaType-FuturaPTHeavy.otf) format("opentype");
+  font-weight:700;
+  font-style:normal
+}
+
+
+body {
+  min-height: 100vh;
+  padding: 5em;
+  background-image:  url(../bg_login.jpeg);
+  background-size: cover;
+  background-color: gray;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Futura PT";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.wrapper {
+  min-height: 300px;
+  width: 400px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 15px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 50px;
+}
+
+.ft-input {
+  margin: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 20px 5px 30px;
+  height: 40px;
+  border: 1px solid #00babc;
+  background-color: rgba(30,30,30, 0.3);
+  color: #c7c7c7;
+  font-size: 1em;
+}
+
+.ft-input::placeholder {
+  font-style: italic;
+  color: rgba(230,230,230,0.2);
+}
+
+.btn {
+  box-sizing: border-box;
+  /* height: 40px; */
+  padding: 0.5em 0;
+  background-color: #00babc;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.btn:hover {
+  background-color: #00b0b2;
+}
+
+.ft__sign_in {
+  margin-top: 0.5em;
+}
+
+
+.ft__forgot-pw {
+  margin-top: 1em;
+}
+
